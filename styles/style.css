@@ -1,0 +1,117 @@
+/*     background-color: #edf1fd;
+ BTN rgb(18, 155, 155)
+ color: rgb(18, 155, 155)
+ */
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    align-items: center;
+    
+}
+nav ul {
+    display: flex;
+    gap:30px;
+    align-items: center;
+
+}
+
+    
+button{
+    background-color:rgb(18, 155, 155) ;
+    border:10px solid white;
+    border-radius: 15px;
+    padding: 4px 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+
+    /* background-color: #fff;
+    color: black;
+    border: 2px solid black; */
+    background-color:rgb(0, 0, 0) ;
+    color: #edf1fd;
+}
+.logo{
+    height: 50px;
+    
+}
+
+
+img{
+    flex-shrink: 2;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+}
+.main-section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.right-main-section{
+    display: flex;
+    flex-direction: column;
+ }
+
+.btn{
+    align-self:center ;
+    width: 150px;
+}
+span{
+    color: rgb(18, 155, 155);
+}
+
+div h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+section div p{
+    font-size: 30px;
+    font-weight: 500;
+ }
+
+.footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div ul {
+   display: flex;
+   justify-content: space-around;
+   gap: 40px;
+
+
+}
+.logo1{
+    flex-shrink: 2;
+    width: 40px;
+    height: 10px;
+}
+footer p{
+    font-size: 25px;
+}
